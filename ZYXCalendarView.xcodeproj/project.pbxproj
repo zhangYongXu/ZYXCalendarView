@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F18242201EBC18EB0091526F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F182421F1EBC18EB0091526F /* main.m */; };
+		F18242231EBC18EB0091526F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242221EBC18EB0091526F /* AppDelegate.m */; };
+		F18242261EBC18EB0091526F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242251EBC18EB0091526F /* ViewController.m */; };
+		F18242291EBC18EB0091526F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18242271EBC18EB0091526F /* Main.storyboard */; };
+		F182422B1EBC18EB0091526F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F182422A1EBC18EB0091526F /* Assets.xcassets */; };
+		F182422E1EBC18EB0091526F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F182422C1EBC18EB0091526F /* LaunchScreen.storyboard */; };
+		F18242391EBC18EB0091526F /* ZYXCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242381EBC18EB0091526F /* ZYXCalendarViewTests.m */; };
+		F18242441EBC18EB0091526F /* ZYXCalendarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242431EBC18EB0091526F /* ZYXCalendarViewUITests.m */; };
+		F18242BB1EBC1A780091526F /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F182426A1EBC1A780091526F /* Wilddog.framework */; };
+		F18242BC1EBC1A780091526F /* GWRootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F182426E1EBC1A780091526F /* GWRootCollectionViewCell.m */; };
+		F18242BD1EBC1A780091526F /* GWRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242701EBC1A780091526F /* GWRootTableViewCell.m */; };
+		F18242BE1EBC1A780091526F /* GWRootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242731EBC1A780091526F /* GWRootModel.m */; };
+		F18242BF1EBC1A780091526F /* GWRootCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242761EBC1A780091526F /* GWRootCollectionReusableView.m */; };
+		F18242C01EBC1A780091526F /* GWRootCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242781EBC1A780091526F /* GWRootCustomView.m */; };
+		F18242C11EBC1A780091526F /* GWRootNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F182427B1EBC1A780091526F /* GWRootNavigationViewController.m */; };
+		F18242C21EBC1A780091526F /* GWRootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F182427D1EBC1A780091526F /* GWRootTabBarViewController.m */; };
+		F18242C31EBC1A780091526F /* GWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F182427F1EBC1A780091526F /* GWRootViewController.m */; };
+		F18242C41EBC1A780091526F /* GWRootViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242821EBC1A780091526F /* GWRootViewModel.m */; };
+		F18242C51EBC1A780091526F /* NSAttributedString+ZYX.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242861EBC1A780091526F /* NSAttributedString+ZYX.m */; };
+		F18242C61EBC1A780091526F /* UIColor+ZYX.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242881EBC1A780091526F /* UIColor+ZYX.m */; };
+		F18242C71EBC1A780091526F /* UIImage+ZYX.m in Sources */ = {isa = PBXBuildFile; fileRef = F182428A1EBC1A780091526F /* UIImage+ZYX.m */; };
+		F18242C81EBC1A780091526F /* YXFileOrDirItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F182428D1EBC1A780091526F /* YXFileOrDirItemModel.m */; };
+		F18242C91EBC1A780091526F /* ZYXImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F182428F1EBC1A780091526F /* ZYXImagePickerManager.m */; };
+		F18242CA1EBC1A780091526F /* ZYXSystemRightMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242911EBC1A780091526F /* ZYXSystemRightMonitor.m */; };
+		F18242CB1EBC1A780091526F /* DDCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242951EBC1A780091526F /* DDCollectionViewFlowLayout.m */; };
+		F18242CC1EBC1A780091526F /* HJCarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242981EBC1A780091526F /* HJCarouselViewLayout.m */; };
+		F18242CD1EBC1A780091526F /* carModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = F182429A1EBC1A780091526F /* carModel.plist */; };
+		F18242CE1EBC1A780091526F /* NSData+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F182429C1EBC1A780091526F /* NSData+GIF.m */; };
+		F18242CF1EBC1A780091526F /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F182429E1EBC1A780091526F /* NSData+ImageContentType.m */; };
+		F18242D01EBC1A780091526F /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242A01EBC1A780091526F /* SDImageCache.m */; };
+		F18242D11EBC1A780091526F /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242A21EBC1A780091526F /* SDWebImageCompat.m */; };
+		F18242D21EBC1A780091526F /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242A41EBC1A780091526F /* SDWebImageDecoder.m */; };
+		F18242D31EBC1A780091526F /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242A61EBC1A780091526F /* SDWebImageDownloader.m */; };
+		F18242D41EBC1A780091526F /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242A81EBC1A780091526F /* SDWebImageDownloaderOperation.m */; };
+		F18242D51EBC1A780091526F /* SDWebImageManager+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242AA1EBC1A780091526F /* SDWebImageManager+MJ.m */; };
+		F18242D61EBC1A780091526F /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242AC1EBC1A780091526F /* SDWebImageManager.m */; };
+		F18242D71EBC1A780091526F /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242AF1EBC1A780091526F /* SDWebImagePrefetcher.m */; };
+		F18242D81EBC1A780091526F /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242B11EBC1A780091526F /* UIButton+WebCache.m */; };
+		F18242D91EBC1A780091526F /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242B31EBC1A780091526F /* UIImage+GIF.m */; };
+		F18242DA1EBC1A780091526F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242B51EBC1A780091526F /* UIImage+MultiFormat.m */; };
+		F18242DB1EBC1A780091526F /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242B71EBC1A780091526F /* UIImageView+WebCache.m */; };
+		F18242DC1EBC1A780091526F /* ZYXCommon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F18242B91EBC1A780091526F /* ZYXCommon.bundle */; };
+		F18242DD1EBC1A780091526F /* ZYXCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18242BA1EBC1A780091526F /* ZYXCommon.framework */; };
+		F18242E31EBC1C510091526F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F18242E21EBC1C510091526F /* libsqlite3.tbd */; };
+		F18242F51EBC2B8F0091526F /* ZYXCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18242EC1EBC2B8F0091526F /* ZYXCalendarView.m */; };
+		F18242F61EBC2B8F0091526F /* ZYXCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18242ED1EBC2B8F0091526F /* ZYXCalendarView.xib */; };
+		F18243081EBC544B0091526F /* ZYXCalendarFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18243001EBC544B0091526F /* ZYXCalendarFooterView.m */; };
+		F18243091EBC544B0091526F /* ZYXCalendarFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18243011EBC544B0091526F /* ZYXCalendarFooterView.xib */; };
+		F182430A1EBC544B0091526F /* ZYXCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18243031EBC544B0091526F /* ZYXCalendarHeaderView.m */; };
+		F182430B1EBC544B0091526F /* ZYXCalendarHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18243041EBC544B0091526F /* ZYXCalendarHeaderView.xib */; };
+		F182430C1EBC544B0091526F /* ZYXCanlendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F18243061EBC544B0091526F /* ZYXCanlendarCell.m */; };
+		F182430D1EBC544B0091526F /* ZYXCanlendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F18243071EBC544B0091526F /* ZYXCanlendarCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F18242351EBC18EB0091526F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18242131EBC18EB0091526F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F182421A1EBC18EB0091526F;
+			remoteInfo = ZYXCalendarView;
+		};
+		F18242401EBC18EB0091526F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F18242131EBC18EB0091526F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F182421A1EBC18EB0091526F;
+			remoteInfo = ZYXCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F182421B1EBC18EB0091526F /* ZYXCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYXCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F182421F1EBC18EB0091526F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F18242211EBC18EB0091526F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F18242221EBC18EB0091526F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F18242241EBC18EB0091526F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F18242251EBC18EB0091526F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F18242281EBC18EB0091526F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F182422A1EBC18EB0091526F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F182422D1EBC18EB0091526F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F182422F1EBC18EB0091526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18242341EBC18EB0091526F /* ZYXCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18242381EBC18EB0091526F /* ZYXCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXCalendarViewTests.m; sourceTree = "<group>"; };
+		F182423A1EBC18EB0091526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F182423F1EBC18EB0091526F /* ZYXCalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYXCalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18242431EBC18EB0091526F /* ZYXCalendarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYXCalendarViewUITests.m; sourceTree = "<group>"; };
+		F18242451EBC18EB0091526F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F182426A1EBC1A780091526F /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		F182426D1EBC1A780091526F /* GWRootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootCollectionViewCell.h; sourceTree = "<group>"; };
+		F182426E1EBC1A780091526F /* GWRootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootCollectionViewCell.m; sourceTree = "<group>"; };
+		F182426F1EBC1A780091526F /* GWRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootTableViewCell.h; sourceTree = "<group>"; };
+		F18242701EBC1A780091526F /* GWRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootTableViewCell.m; sourceTree = "<group>"; };
+		F18242721EBC1A780091526F /* GWRootModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootModel.h; sourceTree = "<group>"; };
+		F18242731EBC1A780091526F /* GWRootModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootModel.m; sourceTree = "<group>"; };
+		F18242751EBC1A780091526F /* GWRootCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootCollectionReusableView.h; sourceTree = "<group>"; };
+		F18242761EBC1A780091526F /* GWRootCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootCollectionReusableView.m; sourceTree = "<group>"; };
+		F18242771EBC1A780091526F /* GWRootCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootCustomView.h; sourceTree = "<group>"; };
+		F18242781EBC1A780091526F /* GWRootCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootCustomView.m; sourceTree = "<group>"; };
+		F182427A1EBC1A780091526F /* GWRootNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootNavigationViewController.h; sourceTree = "<group>"; };
+		F182427B1EBC1A780091526F /* GWRootNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootNavigationViewController.m; sourceTree = "<group>"; };
+		F182427C1EBC1A780091526F /* GWRootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootTabBarViewController.h; sourceTree = "<group>"; };
+		F182427D1EBC1A780091526F /* GWRootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootTabBarViewController.m; sourceTree = "<group>"; };
+		F182427E1EBC1A780091526F /* GWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootViewController.h; sourceTree = "<group>"; };
+		F182427F1EBC1A780091526F /* GWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootViewController.m; sourceTree = "<group>"; };
+		F18242811EBC1A780091526F /* GWRootViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootViewModel.h; sourceTree = "<group>"; };
+		F18242821EBC1A780091526F /* GWRootViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootViewModel.m; sourceTree = "<group>"; };
+		F18242851EBC1A780091526F /* NSAttributedString+ZYX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZYX.h"; sourceTree = "<group>"; };
+		F18242861EBC1A780091526F /* NSAttributedString+ZYX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZYX.m"; sourceTree = "<group>"; };
+		F18242871EBC1A780091526F /* UIColor+ZYX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYX.h"; sourceTree = "<group>"; };
+		F18242881EBC1A780091526F /* UIColor+ZYX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYX.m"; sourceTree = "<group>"; };
+		F18242891EBC1A780091526F /* UIImage+ZYX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZYX.h"; sourceTree = "<group>"; };
+		F182428A1EBC1A780091526F /* UIImage+ZYX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZYX.m"; sourceTree = "<group>"; };
+		F182428C1EBC1A780091526F /* YXFileOrDirItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFileOrDirItemModel.h; sourceTree = "<group>"; };
+		F182428D1EBC1A780091526F /* YXFileOrDirItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFileOrDirItemModel.m; sourceTree = "<group>"; };
+		F182428E1EBC1A780091526F /* ZYXImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXImagePickerManager.h; sourceTree = "<group>"; };
+		F182428F1EBC1A780091526F /* ZYXImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXImagePickerManager.m; sourceTree = "<group>"; };
+		F18242901EBC1A780091526F /* ZYXSystemRightMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXSystemRightMonitor.h; sourceTree = "<group>"; };
+		F18242911EBC1A780091526F /* ZYXSystemRightMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXSystemRightMonitor.m; sourceTree = "<group>"; };
+		F18242941EBC1A780091526F /* DDCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		F18242951EBC1A780091526F /* DDCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		F18242971EBC1A780091526F /* HJCarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCarouselViewLayout.h; sourceTree = "<group>"; };
+		F18242981EBC1A780091526F /* HJCarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCarouselViewLayout.m; sourceTree = "<group>"; };
+		F182429A1EBC1A780091526F /* carModel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = carModel.plist; sourceTree = "<group>"; };
+		F182429B1EBC1A780091526F /* NSData+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GIF.h"; sourceTree = "<group>"; };
+		F182429C1EBC1A780091526F /* NSData+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GIF.m"; sourceTree = "<group>"; };
+		F182429D1EBC1A780091526F /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		F182429E1EBC1A780091526F /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F182429F1EBC1A780091526F /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		F18242A01EBC1A780091526F /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		F18242A11EBC1A780091526F /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		F18242A21EBC1A780091526F /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		F18242A31EBC1A780091526F /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		F18242A41EBC1A780091526F /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F18242A51EBC1A780091526F /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		F18242A61EBC1A780091526F /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		F18242A71EBC1A780091526F /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		F18242A81EBC1A780091526F /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		F18242A91EBC1A780091526F /* SDWebImageManager+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDWebImageManager+MJ.h"; sourceTree = "<group>"; };
+		F18242AA1EBC1A780091526F /* SDWebImageManager+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDWebImageManager+MJ.m"; sourceTree = "<group>"; };
+		F18242AB1EBC1A780091526F /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		F18242AC1EBC1A780091526F /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		F18242AD1EBC1A780091526F /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		F18242AE1EBC1A780091526F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		F18242AF1EBC1A780091526F /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		F18242B01EBC1A780091526F /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F18242B11EBC1A780091526F /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		F18242B21EBC1A780091526F /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		F18242B31EBC1A780091526F /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		F18242B41EBC1A780091526F /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F18242B51EBC1A780091526F /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F18242B61EBC1A780091526F /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F18242B71EBC1A780091526F /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		F18242B91EBC1A780091526F /* ZYXCommon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYXCommon.bundle; sourceTree = "<group>"; };
+		F18242BA1EBC1A780091526F /* ZYXCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZYXCommon.framework; sourceTree = "<group>"; };
+		F18242DE1EBC1A970091526F /* ZYXCalendarView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYXCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		F18242E01EBC1B0E0091526F /* CommonTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTypeDef.h; sourceTree = "<group>"; };
+		F18242E21EBC1C510091526F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F18242EB1EBC2B8F0091526F /* ZYXCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXCalendarView.h; sourceTree = "<group>"; };
+		F18242EC1EBC2B8F0091526F /* ZYXCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXCalendarView.m; sourceTree = "<group>"; };
+		F18242ED1EBC2B8F0091526F /* ZYXCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYXCalendarView.xib; sourceTree = "<group>"; };
+		F18242FF1EBC544B0091526F /* ZYXCalendarFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXCalendarFooterView.h; sourceTree = "<group>"; };
+		F18243001EBC544B0091526F /* ZYXCalendarFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXCalendarFooterView.m; sourceTree = "<group>"; };
+		F18243011EBC544B0091526F /* ZYXCalendarFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYXCalendarFooterView.xib; sourceTree = "<group>"; };
+		F18243021EBC544B0091526F /* ZYXCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXCalendarHeaderView.h; sourceTree = "<group>"; };
+		F18243031EBC544B0091526F /* ZYXCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXCalendarHeaderView.m; sourceTree = "<group>"; };
+		F18243041EBC544B0091526F /* ZYXCalendarHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYXCalendarHeaderView.xib; sourceTree = "<group>"; };
+		F18243051EBC544B0091526F /* ZYXCanlendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYXCanlendarCell.h; sourceTree = "<group>"; };
+		F18243061EBC544B0091526F /* ZYXCanlendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYXCanlendarCell.m; sourceTree = "<group>"; };
+		F18243071EBC544B0091526F /* ZYXCanlendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYXCanlendarCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F18242181EBC18EB0091526F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18242E31EBC1C510091526F /* libsqlite3.tbd in Frameworks */,
+				F18242BB1EBC1A780091526F /* Wilddog.framework in Frameworks */,
+				F18242DD1EBC1A780091526F /* ZYXCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18242311EBC18EB0091526F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F182423C1EBC18EB0091526F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F18242121EBC18EB0091526F = {
+			isa = PBXGroup;
+			children = (
+				F182421D1EBC18EB0091526F /* ZYXCalendarView */,
+				F18242371EBC18EB0091526F /* ZYXCalendarViewTests */,
+				F18242421EBC18EB0091526F /* ZYXCalendarViewUITests */,
+				F182421C1EBC18EB0091526F /* Products */,
+				F18242E11EBC1C510091526F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F182421C1EBC18EB0091526F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F182421B1EBC18EB0091526F /* ZYXCalendarView.app */,
+				F18242341EBC18EB0091526F /* ZYXCalendarViewTests.xctest */,
+				F182423F1EBC18EB0091526F /* ZYXCalendarViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F182421D1EBC18EB0091526F /* ZYXCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				F18242681EBC1A780091526F /* common */,
+				F18242691EBC1A780091526F /* lib */,
+				F182426B1EBC1A780091526F /* root */,
+				F18242831EBC1A780091526F /* util */,
+				F18242921EBC1A780091526F /* vender */,
+				F18242211EBC18EB0091526F /* AppDelegate.h */,
+				F18242221EBC18EB0091526F /* AppDelegate.m */,
+				F18242E41EBC2B8F0091526F /* ZYXCalendar */,
+				F18242241EBC18EB0091526F /* ViewController.h */,
+				F18242251EBC18EB0091526F /* ViewController.m */,
+				F18242271EBC18EB0091526F /* Main.storyboard */,
+				F182422A1EBC18EB0091526F /* Assets.xcassets */,
+				F182422C1EBC18EB0091526F /* LaunchScreen.storyboard */,
+				F182422F1EBC18EB0091526F /* Info.plist */,
+				F182421E1EBC18EB0091526F /* Supporting Files */,
+			);
+			path = ZYXCalendarView;
+			sourceTree = "<group>";
+		};
+		F182421E1EBC18EB0091526F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F18242F91EBC2C970091526F /* image */,
+				F18242DF1EBC1B0E0091526F /* config */,
+				F18242DE1EBC1A970091526F /* ZYXCalendarView-Prefix.pch */,
+				F182421F1EBC18EB0091526F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F18242371EBC18EB0091526F /* ZYXCalendarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F18242381EBC18EB0091526F /* ZYXCalendarViewTests.m */,
+				F182423A1EBC18EB0091526F /* Info.plist */,
+			);
+			path = ZYXCalendarViewTests;
+			sourceTree = "<group>";
+		};
+		F18242421EBC18EB0091526F /* ZYXCalendarViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F18242431EBC18EB0091526F /* ZYXCalendarViewUITests.m */,
+				F18242451EBC18EB0091526F /* Info.plist */,
+			);
+			path = ZYXCalendarViewUITests;
+			sourceTree = "<group>";
+		};
+		F18242681EBC1A780091526F /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F18242691EBC1A780091526F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F182426A1EBC1A780091526F /* Wilddog.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F182426B1EBC1A780091526F /* root */ = {
+			isa = PBXGroup;
+			children = (
+				F182426C1EBC1A780091526F /* cell */,
+				F18242711EBC1A780091526F /* model */,
+				F18242741EBC1A780091526F /* view */,
+				F18242791EBC1A780091526F /* viewController */,
+				F18242801EBC1A780091526F /* viewModel */,
+			);
+			path = root;
+			sourceTree = "<group>";
+		};
+		F182426C1EBC1A780091526F /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F182426D1EBC1A780091526F /* GWRootCollectionViewCell.h */,
+				F182426E1EBC1A780091526F /* GWRootCollectionViewCell.m */,
+				F182426F1EBC1A780091526F /* GWRootTableViewCell.h */,
+				F18242701EBC1A780091526F /* GWRootTableViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F18242711EBC1A780091526F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F18242721EBC1A780091526F /* GWRootModel.h */,
+				F18242731EBC1A780091526F /* GWRootModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F18242741EBC1A780091526F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F18242751EBC1A780091526F /* GWRootCollectionReusableView.h */,
+				F18242761EBC1A780091526F /* GWRootCollectionReusableView.m */,
+				F18242771EBC1A780091526F /* GWRootCustomView.h */,
+				F18242781EBC1A780091526F /* GWRootCustomView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F18242791EBC1A780091526F /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				F182427A1EBC1A780091526F /* GWRootNavigationViewController.h */,
+				F182427B1EBC1A780091526F /* GWRootNavigationViewController.m */,
+				F182427C1EBC1A780091526F /* GWRootTabBarViewController.h */,
+				F182427D1EBC1A780091526F /* GWRootTabBarViewController.m */,
+				F182427E1EBC1A780091526F /* GWRootViewController.h */,
+				F182427F1EBC1A780091526F /* GWRootViewController.m */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		F18242801EBC1A780091526F /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F18242811EBC1A780091526F /* GWRootViewModel.h */,
+				F18242821EBC1A780091526F /* GWRootViewModel.m */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		F18242831EBC1A780091526F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F18242841EBC1A780091526F /* cotegory */,
+				F182428B1EBC1A780091526F /* tool */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		F18242841EBC1A780091526F /* cotegory */ = {
+			isa = PBXGroup;
+			children = (
+				F18242851EBC1A780091526F /* NSAttributedString+ZYX.h */,
+				F18242861EBC1A780091526F /* NSAttributedString+ZYX.m */,
+				F18242871EBC1A780091526F /* UIColor+ZYX.h */,
+				F18242881EBC1A780091526F /* UIColor+ZYX.m */,
+				F18242891EBC1A780091526F /* UIImage+ZYX.h */,
+				F182428A1EBC1A780091526F /* UIImage+ZYX.m */,
+			);
+			path = cotegory;
+			sourceTree = "<group>";
+		};
+		F182428B1EBC1A780091526F /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				F182428C1EBC1A780091526F /* YXFileOrDirItemModel.h */,
+				F182428D1EBC1A780091526F /* YXFileOrDirItemModel.m */,
+				F182428E1EBC1A780091526F /* ZYXImagePickerManager.h */,
+				F182428F1EBC1A780091526F /* ZYXImagePickerManager.m */,
+				F18242901EBC1A780091526F /* ZYXSystemRightMonitor.h */,
+				F18242911EBC1A780091526F /* ZYXSystemRightMonitor.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		F18242921EBC1A780091526F /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				F18242931EBC1A780091526F /* DDCollectionViewFlowLayout */,
+				F18242961EBC1A780091526F /* HJCarouselViewLayout */,
+				F18242991EBC1A780091526F /* SDWebImage */,
+				F18242B81EBC1A780091526F /* ZYXCommon */,
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		F18242931EBC1A780091526F /* DDCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F18242941EBC1A780091526F /* DDCollectionViewFlowLayout.h */,
+				F18242951EBC1A780091526F /* DDCollectionViewFlowLayout.m */,
+			);
+			path = DDCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		F18242961EBC1A780091526F /* HJCarouselViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F18242971EBC1A780091526F /* HJCarouselViewLayout.h */,
+				F18242981EBC1A780091526F /* HJCarouselViewLayout.m */,
+			);
+			path = HJCarouselViewLayout;
+			sourceTree = "<group>";
+		};
+		F18242991EBC1A780091526F /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F182429A1EBC1A780091526F /* carModel.plist */,
+				F182429B1EBC1A780091526F /* NSData+GIF.h */,
+				F182429C1EBC1A780091526F /* NSData+GIF.m */,
+				F182429D1EBC1A780091526F /* NSData+ImageContentType.h */,
+				F182429E1EBC1A780091526F /* NSData+ImageContentType.m */,
+				F182429F1EBC1A780091526F /* SDImageCache.h */,
+				F18242A01EBC1A780091526F /* SDImageCache.m */,
+				F18242A11EBC1A780091526F /* SDWebImageCompat.h */,
+				F18242A21EBC1A780091526F /* SDWebImageCompat.m */,
+				F18242A31EBC1A780091526F /* SDWebImageDecoder.h */,
+				F18242A41EBC1A780091526F /* SDWebImageDecoder.m */,
+				F18242A51EBC1A780091526F /* SDWebImageDownloader.h */,
+				F18242A61EBC1A780091526F /* SDWebImageDownloader.m */,
+				F18242A71EBC1A780091526F /* SDWebImageDownloaderOperation.h */,
+				F18242A81EBC1A780091526F /* SDWebImageDownloaderOperation.m */,
+				F18242A91EBC1A780091526F /* SDWebImageManager+MJ.h */,
+				F18242AA1EBC1A780091526F /* SDWebImageManager+MJ.m */,
+				F18242AB1EBC1A780091526F /* SDWebImageManager.h */,
+				F18242AC1EBC1A780091526F /* SDWebImageManager.m */,
+				F18242AD1EBC1A780091526F /* SDWebImageOperation.h */,
+				F18242AE1EBC1A780091526F /* SDWebImagePrefetcher.h */,
+				F18242AF1EBC1A780091526F /* SDWebImagePrefetcher.m */,
+				F18242B01EBC1A780091526F /* UIButton+WebCache.h */,
+				F18242B11EBC1A780091526F /* UIButton+WebCache.m */,
+				F18242B21EBC1A780091526F /* UIImage+GIF.h */,
+				F18242B31EBC1A780091526F /* UIImage+GIF.m */,
+				F18242B41EBC1A780091526F /* UIImage+MultiFormat.h */,
+				F18242B51EBC1A780091526F /* UIImage+MultiFormat.m */,
+				F18242B61EBC1A780091526F /* UIImageView+WebCache.h */,
+				F18242B71EBC1A780091526F /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		F18242B81EBC1A780091526F /* ZYXCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F18242B91EBC1A780091526F /* ZYXCommon.bundle */,
+				F18242BA1EBC1A780091526F /* ZYXCommon.framework */,
+			);
+			path = ZYXCommon;
+			sourceTree = "<group>";
+		};
+		F18242DF1EBC1B0E0091526F /* config */ = {
+			isa = PBXGroup;
+			children = (
+				F18242E01EBC1B0E0091526F /* CommonTypeDef.h */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		F18242E11EBC1C510091526F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18242E21EBC1C510091526F /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F18242E41EBC2B8F0091526F /* ZYXCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F18242EB1EBC2B8F0091526F /* ZYXCalendarView.h */,
+				F18242EC1EBC2B8F0091526F /* ZYXCalendarView.m */,
+				F18242ED1EBC2B8F0091526F /* ZYXCalendarView.xib */,
+				F18242FE1EBC544B0091526F /* Class */,
+			);
+			path = ZYXCalendar;
+			sourceTree = "<group>";
+		};
+		F18242F91EBC2C970091526F /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F18242FE1EBC544B0091526F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F18242FF1EBC544B0091526F /* ZYXCalendarFooterView.h */,
+				F18243001EBC544B0091526F /* ZYXCalendarFooterView.m */,
+				F18243011EBC544B0091526F /* ZYXCalendarFooterView.xib */,
+				F18243021EBC544B0091526F /* ZYXCalendarHeaderView.h */,
+				F18243031EBC544B0091526F /* ZYXCalendarHeaderView.m */,
+				F18243041EBC544B0091526F /* ZYXCalendarHeaderView.xib */,
+				F18243051EBC544B0091526F /* ZYXCanlendarCell.h */,
+				F18243061EBC544B0091526F /* ZYXCanlendarCell.m */,
+				F18243071EBC544B0091526F /* ZYXCanlendarCell.xib */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F182421A1EBC18EB0091526F /* ZYXCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18242481EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarView" */;
+			buildPhases = (
+				F18242171EBC18EB0091526F /* Sources */,
+				F18242181EBC18EB0091526F /* Frameworks */,
+				F18242191EBC18EB0091526F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYXCalendarView;
+			productName = ZYXCalendarView;
+			productReference = F182421B1EBC18EB0091526F /* ZYXCalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F18242331EBC18EB0091526F /* ZYXCalendarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F182424B1EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarViewTests" */;
+			buildPhases = (
+				F18242301EBC18EB0091526F /* Sources */,
+				F18242311EBC18EB0091526F /* Frameworks */,
+				F18242321EBC18EB0091526F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18242361EBC18EB0091526F /* PBXTargetDependency */,
+			);
+			name = ZYXCalendarViewTests;
+			productName = ZYXCalendarViewTests;
+			productReference = F18242341EBC18EB0091526F /* ZYXCalendarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F182423E1EBC18EB0091526F /* ZYXCalendarViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F182424E1EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarViewUITests" */;
+			buildPhases = (
+				F182423B1EBC18EB0091526F /* Sources */,
+				F182423C1EBC18EB0091526F /* Frameworks */,
+				F182423D1EBC18EB0091526F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F18242411EBC18EB0091526F /* PBXTargetDependency */,
+			);
+			name = ZYXCalendarViewUITests;
+			productName = ZYXCalendarViewUITests;
+			productReference = F182423F1EBC18EB0091526F /* ZYXCalendarViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F18242131EBC18EB0091526F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "极客天地";
+				TargetAttributes = {
+					F182421A1EBC18EB0091526F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PYKU93R6EC;
+						ProvisioningStyle = Manual;
+					};
+					F18242331EBC18EB0091526F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F182421A1EBC18EB0091526F;
+					};
+					F182423E1EBC18EB0091526F = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F182421A1EBC18EB0091526F;
+					};
+				};
+			};
+			buildConfigurationList = F18242161EBC18EB0091526F /* Build configuration list for PBXProject "ZYXCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F18242121EBC18EB0091526F;
+			productRefGroup = F182421C1EBC18EB0091526F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F182421A1EBC18EB0091526F /* ZYXCalendarView */,
+				F18242331EBC18EB0091526F /* ZYXCalendarViewTests */,
+				F182423E1EBC18EB0091526F /* ZYXCalendarViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F18242191EBC18EB0091526F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F182422E1EBC18EB0091526F /* LaunchScreen.storyboard in Resources */,
+				F18242DC1EBC1A780091526F /* ZYXCommon.bundle in Resources */,
+				F182422B1EBC18EB0091526F /* Assets.xcassets in Resources */,
+				F182430B1EBC544B0091526F /* ZYXCalendarHeaderView.xib in Resources */,
+				F18242F61EBC2B8F0091526F /* ZYXCalendarView.xib in Resources */,
+				F18242291EBC18EB0091526F /* Main.storyboard in Resources */,
+				F18242CD1EBC1A780091526F /* carModel.plist in Resources */,
+				F182430D1EBC544B0091526F /* ZYXCanlendarCell.xib in Resources */,
+				F18243091EBC544B0091526F /* ZYXCalendarFooterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18242321EBC18EB0091526F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F182423D1EBC18EB0091526F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F18242171EBC18EB0091526F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18242261EBC18EB0091526F /* ViewController.m in Sources */,
+				F18242231EBC18EB0091526F /* AppDelegate.m in Sources */,
+				F18242BF1EBC1A780091526F /* GWRootCollectionReusableView.m in Sources */,
+				F18242C91EBC1A780091526F /* ZYXImagePickerManager.m in Sources */,
+				F18242D31EBC1A780091526F /* SDWebImageDownloader.m in Sources */,
+				F18242CA1EBC1A780091526F /* ZYXSystemRightMonitor.m in Sources */,
+				F18242D51EBC1A780091526F /* SDWebImageManager+MJ.m in Sources */,
+				F18242D81EBC1A780091526F /* UIButton+WebCache.m in Sources */,
+				F18242D71EBC1A780091526F /* SDWebImagePrefetcher.m in Sources */,
+				F18242D11EBC1A780091526F /* SDWebImageCompat.m in Sources */,
+				F18242DB1EBC1A780091526F /* UIImageView+WebCache.m in Sources */,
+				F18242CE1EBC1A780091526F /* NSData+GIF.m in Sources */,
+				F18242BD1EBC1A780091526F /* GWRootTableViewCell.m in Sources */,
+				F18242F51EBC2B8F0091526F /* ZYXCalendarView.m in Sources */,
+				F18242C71EBC1A780091526F /* UIImage+ZYX.m in Sources */,
+				F18242D61EBC1A780091526F /* SDWebImageManager.m in Sources */,
+				F18242C01EBC1A780091526F /* GWRootCustomView.m in Sources */,
+				F18242D01EBC1A780091526F /* SDImageCache.m in Sources */,
+				F18242C51EBC1A780091526F /* NSAttributedString+ZYX.m in Sources */,
+				F18242D91EBC1A780091526F /* UIImage+GIF.m in Sources */,
+				F182430A1EBC544B0091526F /* ZYXCalendarHeaderView.m in Sources */,
+				F18242D41EBC1A780091526F /* SDWebImageDownloaderOperation.m in Sources */,
+				F18242C61EBC1A780091526F /* UIColor+ZYX.m in Sources */,
+				F18242C11EBC1A780091526F /* GWRootNavigationViewController.m in Sources */,
+				F18242DA1EBC1A780091526F /* UIImage+MultiFormat.m in Sources */,
+				F18242BE1EBC1A780091526F /* GWRootModel.m in Sources */,
+				F182430C1EBC544B0091526F /* ZYXCanlendarCell.m in Sources */,
+				F18242CF1EBC1A780091526F /* NSData+ImageContentType.m in Sources */,
+				F18242C41EBC1A780091526F /* GWRootViewModel.m in Sources */,
+				F18242C21EBC1A780091526F /* GWRootTabBarViewController.m in Sources */,
+				F18242C31EBC1A780091526F /* GWRootViewController.m in Sources */,
+				F18243081EBC544B0091526F /* ZYXCalendarFooterView.m in Sources */,
+				F18242D21EBC1A780091526F /* SDWebImageDecoder.m in Sources */,
+				F18242CC1EBC1A780091526F /* HJCarouselViewLayout.m in Sources */,
+				F18242201EBC18EB0091526F /* main.m in Sources */,
+				F18242CB1EBC1A780091526F /* DDCollectionViewFlowLayout.m in Sources */,
+				F18242BC1EBC1A780091526F /* GWRootCollectionViewCell.m in Sources */,
+				F18242C81EBC1A780091526F /* YXFileOrDirItemModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18242301EBC18EB0091526F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18242391EBC18EB0091526F /* ZYXCalendarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F182423B1EBC18EB0091526F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F18242441EBC18EB0091526F /* ZYXCalendarViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F18242361EBC18EB0091526F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F182421A1EBC18EB0091526F /* ZYXCalendarView */;
+			targetProxy = F18242351EBC18EB0091526F /* PBXContainerItemProxy */;
+		};
+		F18242411EBC18EB0091526F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F182421A1EBC18EB0091526F /* ZYXCalendarView */;
+			targetProxy = F18242401EBC18EB0091526F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F18242271EBC18EB0091526F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F18242281EBC18EB0091526F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F182422C1EBC18EB0091526F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F182422D1EBC18EB0091526F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F18242461EBC18EB0091526F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F18242471EBC18EB0091526F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F18242491EBC18EB0091526F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PYKU93R6EC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYXCalendarView/lib",
+					"$(PROJECT_DIR)/ZYXCalendarView/vender/ZYXCommon",
+				);
+				GCC_PREFIX_HEADER = "ZYXCalendarView/ZYXCalendarView-Prefix.pch";
+				INFOPLIST_FILE = ZYXCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commonTestID.ZYXCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31c99898-0c3f-41a9-ad7e-d9019a33cfb8";
+				PROVISIONING_PROFILE_SPECIFIER = commonTestID_development;
+			};
+			name = Debug;
+		};
+		F182424A1EBC18EB0091526F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PYKU93R6EC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZYXCalendarView/lib",
+					"$(PROJECT_DIR)/ZYXCalendarView/vender/ZYXCommon",
+				);
+				GCC_PREFIX_HEADER = "ZYXCalendarView/ZYXCalendarView-Prefix.pch";
+				INFOPLIST_FILE = ZYXCalendarView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-objc",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commonTestID.ZYXCalendarView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31c99898-0c3f-41a9-ad7e-d9019a33cfb8";
+				PROVISIONING_PROFILE_SPECIFIER = commonTestID_development;
+			};
+			name = Release;
+		};
+		F182424C1EBC18EB0091526F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekworld.ZYXCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXCalendarView.app/ZYXCalendarView";
+			};
+			name = Debug;
+		};
+		F182424D1EBC18EB0091526F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYXCalendarViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekworld.ZYXCalendarViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYXCalendarView.app/ZYXCalendarView";
+			};
+			name = Release;
+		};
+		F182424F1EBC18EB0091526F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekworld.ZYXCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXCalendarView;
+			};
+			name = Debug;
+		};
+		F18242501EBC18EB0091526F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYXCalendarViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geekworld.ZYXCalendarViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYXCalendarView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F18242161EBC18EB0091526F /* Build configuration list for PBXProject "ZYXCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18242461EBC18EB0091526F /* Debug */,
+				F18242471EBC18EB0091526F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18242481EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18242491EBC18EB0091526F /* Debug */,
+				F182424A1EBC18EB0091526F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F182424B1EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F182424C1EBC18EB0091526F /* Debug */,
+				F182424D1EBC18EB0091526F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F182424E1EBC18EB0091526F /* Build configuration list for PBXNativeTarget "ZYXCalendarViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F182424F1EBC18EB0091526F /* Debug */,
+				F18242501EBC18EB0091526F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F18242131EBC18EB0091526F /* Project object */;
+}
