@@ -59,7 +59,6 @@
 
     #import <ZYXCommon/YXFileDirTool.h>
 
-    #import <ZYXCommon/Aspects.h>
 
 
     #import <ZYXCommon/RootViewController.h>

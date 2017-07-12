@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Aspects.h</key>
-		<data>
-		GhEo3j6LV0nxUZgnZCmw7YYwMis=
-		</data>
 		<key>Headers/CALayer+Addition.h</key>
 		<data>
 		aCqFClG9ow9rvez9fw57GmdoYHM=
@@ -126,7 +122,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Nr6nfhARhjncUFwv9L8naGA0XyQ=
+		bK8NckgKUijeqQ8+GWcbYUQnrTY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -134,30 +130,19 @@
 		</data>
 		<key>YXCustomDateView.nib</key>
 		<data>
-		8Zm7f191AE9swMji6URyzHrk/2Q=
+		3u4hNy0ROAuZYTb78uM69XMp1qs=
 		</data>
 		<key>YXSinglePickerView.nib</key>
 		<data>
-		Se+dl11qWBqp3ZDSsT367wKo1JY=
+		nuCoWVa6G+eVW16xUpc52FpVWIw=
 		</data>
 		<key>YXTableViewIndexView.nib</key>
 		<data>
-		fnLId5pCnqQuvlqF+x9b+i+IUP8=
+		9jl+vWAPk7kUtCh2wAM90G+bEww=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Aspects.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GhEo3j6LV0nxUZgnZCmw7YYwMis=
-			</data>
-			<key>hash2</key>
-			<data>
-			IBc9WQaLDTc/dhqnQW+N3rIi0eOFcm2f47/1D/qGMQI=
-			</data>
-		</dict>
 		<key>Headers/CALayer+Addition.h</key>
 		<dict>
 			<key>hash</key>
@@ -492,33 +477,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Zm7f191AE9swMji6URyzHrk/2Q=
+			3u4hNy0ROAuZYTb78uM69XMp1qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			LMUW/uSFzLDx1/S6SGX1M6VVyIXo7lRFP8T5suaI5ks=
+			B/nwyEPjefIT9uY+KUBO5uuFpxKqKd1QgBtiBvOWTMw=
 			</data>
 		</dict>
 		<key>YXSinglePickerView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Se+dl11qWBqp3ZDSsT367wKo1JY=
+			nuCoWVa6G+eVW16xUpc52FpVWIw=
 			</data>
 			<key>hash2</key>
 			<data>
-			0SFRn1s9agN7BmyeMoG5raHug+c2DRfpHsDlboV7DHM=
+			zNcnGQDPv8HX5Y+Lftgch+Xt48Rt6Eg7uBSLChtSxgU=
 			</data>
 		</dict>
 		<key>YXTableViewIndexView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fnLId5pCnqQuvlqF+x9b+i+IUP8=
+			9jl+vWAPk7kUtCh2wAM90G+bEww=
 			</data>
 			<key>hash2</key>
 			<data>
-			FFGVBAnF/N5LyJNJ8dMiTowwMR4LQEsSjO1HYFClTI4=
+			uAAb7hWAnb3e3+8Q9czg+JdHmVpT2jT7PQcQV6244Hc=
 			</data>
 		</dict>
 	</dict>
@@ -539,6 +524,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -584,6 +574,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
